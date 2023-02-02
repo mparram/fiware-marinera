@@ -6,6 +6,6 @@ helmCharts:
   - name: fiware-platform
     version: 1.0.0
     releaseName: marinera
-    namespace: argocd
+    namespace: openshift-gitops
     valuesFile:
       values.yaml
